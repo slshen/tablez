@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8" />
+<title>Default title for my pages</title>
+
+<link rel="stylesheet" href="/webjars/bootstrap/css/bootstrap.min.css" />
+</head>
+<body>
+  <nav class="navbar navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="#">Navbar</a>
+  </nav>
+  <th-block data-layout-fragment="content"></th-block>
+
+  <script src="/webjars/jquery/jquery.min.js"></script>
+  <script src="/webjars/bootstrap/js/bootstrap.min.js"></script>
+  <th-block data-layout-fragment="scripts"></th-block>
+</body>
+</html>
